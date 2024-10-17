@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import IntroduceCard from "./components/IntroduceCard";
 
 export default function Home() {
@@ -17,17 +16,16 @@ export default function Home() {
     },
   ];
   return (
-    <div className="h-full">
+    <div className="">
       <div className="flex flex-col absolute top-0 -z-[2] left-0">
         <img
-          className="object-cover brightness-75 h-screen"
-          src="https://s3-alpha-sig.figma.com/img/0237/3fe8/1617548fbda4a1c69313c5d393597fd0?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NGQcionvACpq2irSOXR3kkn2YxDvuJfjs2SLqYnZNHAi51Ji3S601mPHnSXQRiiBzhGILxOzFZG25nXew~kqfZOF0vIHAWbh8DZHOrnvhIM8w4JsVQe~pkhOKA-VhpVsOCoVqStP7eYa4c8aJLMUlEMUjyDW1A3OZZn-PoqcLarmQEP6JxJe3hh4K00eBl9oQxuN29V6OehmSC-CjzwX5AT7geqfPLLDSdkz4f6O2smc~1osNn~gg6nOTrFs2W-FKkKJjazuPnmtdjAKl3P3HgrhsgH54TgdhX2-ytmg~48GVKiMQUdzU2NczZdsLZBpvciXashb4ypYlzW8JWtjQg__"
+          className="object-cover h-screen w-screen"
+          src="/happyfarm.png"
           alt=""
         />
       </div>
 
-      <Header />
-      <div className="items-center text-center mt-[143px] max-lg:mt-[50px] flex flex-col gap-8 max-w-desktop w-full mx-auto px-2">
+      <div className="items-center pb-2 backdrop-blur-[2px] text-center mt-[200px] max-lg:mt-[200px] flex flex-col gap-8 max-w-desktop w-full mx-auto px-2">
         <img
           className="md:hidden w-1/2 max-w-[200px] object-cover"
           src="/logo.png"
@@ -56,14 +54,14 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="px-2 flex mt-[181px] max-lg:mt-[140px] gap-4 max-w-desktop w-full mx-auto max-md:flex-col max-md:items-center">
+      <div className="px-2 pb-10 flex mt-[130px] max-lg:mt-[140px] gap-4 max-w-desktop w-full mx-auto max-md:flex-col max-md:items-center">
         {items.map((item, index) => {
           return (
             <IntroduceCard key={index} img={item.img} title={item.title} />
           );
         })}
       </div>
-      <div className="bg-yellow w-full mt-8 overflow-hidden whitespace-nowrap slider-container">
+      <div className="bg-yellow fixed bottom-0 w-full mt-8 overflow-hidden whitespace-nowrap slider-container">
         <div className="slider">
           <p className="inline-block px-5">
             <span className="px-2">

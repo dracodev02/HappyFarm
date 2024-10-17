@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #884B2B;
+  --background: #75a743;
   --foreground: #171717;
 }
 
@@ -23,10 +23,10 @@ body {
 
 @keyframes fly {
   0%, 100% {
-    transform: translateY(0px);
+    transform: translate(-50%, 0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translate(-50%, -10px);
   }
 }
 

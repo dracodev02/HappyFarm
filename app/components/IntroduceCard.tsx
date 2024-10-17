@@ -1,6 +1,6 @@
 const IntroduceCard = ({ img, title }: { img: string; title: string }) => {
   return (
-    <div className="flex flex-col flex-1 max-md:max-w-[500px]">
+    <div className="flex flex-col flex-1 max-md:max-w-[500px] hover:-translate-y-4 transition-all">
       <div className="bg-white p-[2px] rounded-[6px]">
         <div className=" border-[4px] border-b-[14px] aspect-video w-full h-full border-green rounded">
           <img className="w-full h-full object-cover" src={img} alt="" />
