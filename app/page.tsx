@@ -17,38 +17,30 @@ export default function Home() {
     },
   ];
   return (
-    <div className="">
-      <div className="flex flex-col  absolute top-0 -z-[2] left-0">
+    <div className="h-full">
+      <div className="flex flex-col absolute top-0 -z-[2] left-0">
         <img
-          className=" object-cover min-h-[95%]"
+          className="object-cover brightness-75 h-screen"
           src="https://s3-alpha-sig.figma.com/img/0237/3fe8/1617548fbda4a1c69313c5d393597fd0?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NGQcionvACpq2irSOXR3kkn2YxDvuJfjs2SLqYnZNHAi51Ji3S601mPHnSXQRiiBzhGILxOzFZG25nXew~kqfZOF0vIHAWbh8DZHOrnvhIM8w4JsVQe~pkhOKA-VhpVsOCoVqStP7eYa4c8aJLMUlEMUjyDW1A3OZZn-PoqcLarmQEP6JxJe3hh4K00eBl9oQxuN29V6OehmSC-CjzwX5AT7geqfPLLDSdkz4f6O2smc~1osNn~gg6nOTrFs2W-FKkKJjazuPnmtdjAKl3P3HgrhsgH54TgdhX2-ytmg~48GVKiMQUdzU2NczZdsLZBpvciXashb4ypYlzW8JWtjQg__"
           alt=""
         />
-        <div className="border-t-[8px] border-brown bg-light-brown w-full h-[192px] "></div>
-        <div className="bg-yellow h-[50px] w-full">
-          <div className="flex justify-between py-2 px-2 whitespace-nowrap mx-auto w-full max-w-desktop uppercase text-green-yellow text-base left-5">
-            <div className="flex gap-6 py-2">
-              <p>Welcome to the best pixel casual game on starknet</p>
-              <p>chapter 1 is here</p>
-            </div>
-            <div className="flex gap-6 py-2">
-              <p>Welcome to the best pixel casual game on starknet</p>
-              <p>chapter 1 is here</p>
-            </div>
-          </div>
-        </div>
       </div>
 
       <Header />
-      <div className=" text-center mt-[143px] flex flex-col gap-8 max-w-desktop w-full mx-auto px-2">
-        <div className="relative">
-          <h1 className="uppercase inline-grid text-white text-[72px] leading-[72px]">
+      <div className="items-center text-center mt-[143px] max-lg:mt-[50px] flex flex-col gap-8 max-w-desktop w-full mx-auto px-2">
+        <img
+          className="md:hidden w-1/2 max-w-[200px] object-cover"
+          src="/logo.png"
+          alt=""
+        />
+        <div className="relative max-md:text-[50px] text-[72px] leading-[72px] max-md:leading-[50px]">
+          <h1 className="uppercase inline-grid text-white">
             <span>experience an interesting</span>
-            <span>{` way to explore the farmer's life`}</span>
+            <span>{`way to explore the farmer's life`}</span>
           </h1>
-          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full py-2 -z-[1] uppercase inline-grid text-black text-[72px] leading-[72px]">
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full py-2 -z-[1] uppercase inline-grid text-black">
             <span>experience an interesting</span>
-            <span>{` way to explore the farmer's life`}</span>
+            <span>{`way to explore the farmer's life`}</span>
           </h1>
         </div>
         <div className="relative">
@@ -64,12 +56,64 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="flex mt-[181px] gap-4 max-w-desktop w-full mx-auto">
+      <div className="px-2 flex mt-[181px] max-lg:mt-[140px] gap-4 max-w-desktop w-full mx-auto max-md:flex-col max-md:items-center">
         {items.map((item, index) => {
           return (
             <IntroduceCard key={index} img={item.img} title={item.title} />
           );
         })}
+      </div>
+      <div className="bg-yellow w-full mt-8 overflow-hidden whitespace-nowrap slider-container">
+        <div className="slider">
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+          <p className="inline-block px-5">
+            <span className="px-2">
+              Welcome to the best pixel casual game on starknet
+            </span>
+            <span className="px-2">chapter 1 is here</span>
+          </p>
+        </div>
       </div>
     </div>
   );

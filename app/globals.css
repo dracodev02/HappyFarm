@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #884B2B;
   --foreground: #171717;
 }
 
@@ -11,6 +11,36 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-pixel-operator), sans-serif;
+}
+
+.slider-container:hover .slider {
+  animation-play-state: paused;
+}
+
+.slider {
+  animation: slide 10s linear infinite;
+}
+
+@keyframes fly {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.fly {
+  animation: fly 4s ease-in-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @layer utilities {
