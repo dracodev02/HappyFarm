@@ -21,6 +21,23 @@ body {
   animation: slide 10s linear infinite;
 }
 
+.card-hover:hover {
+  animation: card-hover 2s ease-in-out infinite;
+}
+
+.card-hover:hover::after {
+  animation: card-hover 2s ease-in-out infinite;
+}
+
+@keyframes card-hover {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 @keyframes fly {
   0%, 100% {
     transform: translate(-50%, 0px);

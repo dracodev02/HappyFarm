@@ -1,9 +1,9 @@
 const IntroduceCard = ({ img, title }: { img: string; title: string }) => {
   return (
-    <div className="flex w-full flex-col flex-1 max-md:max-w-[500px] max-md:hover:-translate-y-1 hover:-translate-y-4 transition-all">
+    <div className="flex w-full flex-col flex-1 max-md:max-w-[500px] transition-all card-hover">
       <div className="bg-white p-[2px] rounded-[6px]">
         <img
-          className=" object-cover border-[4px] border-b-[14px] aspect-video w-full h-full border-green rounded"
+          className="object-cover border-[4px] border-b-[14px] aspect-video w-full h-full border-green rounded"
           src={img}
           alt=""
         />

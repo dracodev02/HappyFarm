@@ -18,14 +18,6 @@ export default function Home() {
   return (
     <div className="">
       <div className="flex flex-col absolute top-0 -z-[2] left-0">
-        {/* <img
-          className="object-cover h-screen w-screen"
-          src="/happyfarm.png"
-          alt=""
-        /> */}
-        {/* <video autoPlay muted loop className="object-cover h-screen w-screen">
-          <source src="/background.gif" type="video/mp4" />
-        </video> */}
         <img
           src="background.gif"
           alt=""
@@ -39,14 +31,6 @@ export default function Home() {
           src="/logo.png"
           alt=""
         />
-        {/* <video
-          autoPlay
-          muted
-          loop
-          className="md:hidden w-1/2 max-w-[200px] object-cover"
-        >
-          <source src="/happyfarm.png" type="video/mp4" />
-        </video> */}
         <div className="relative max-md:text-[50px] text-[72px] leading-[72px] max-md:leading-[50px]">
           <h1 className="uppercase inline-grid text-white">
             <span>experience an interesting</span>
