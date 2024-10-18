@@ -23,25 +23,30 @@ export default function Home() {
           src="/happyfarm.png"
           alt=""
         /> */}
-        <video autoPlay muted loop className="object-cover h-screen w-screen">
-          <source src="/LandingPage.mp4" type="video/mp4" />
-        </video>
+        {/* <video autoPlay muted loop className="object-cover h-screen w-screen">
+          <source src="/background.gif" type="video/mp4" />
+        </video> */}
+        <img
+          src="background.gif"
+          alt=""
+          className="object-cover h-screen w-screen"
+        />
       </div>
 
       <div className="items-center pb-2 backdrop-blur-[2px] text-center mt-[200px] max-lg:mt-[200px] flex flex-col gap-8 max-w-desktop w-full mx-auto px-2">
-        {/* <img
+        <img
           className="md:hidden w-1/2 max-w-[200px] object-cover"
           src="/logo.png"
           alt=""
-        /> */}
-        <video
+        />
+        {/* <video
           autoPlay
           muted
           loop
           className="md:hidden w-1/2 max-w-[200px] object-cover"
         >
-          <source src="/LandingPage.mp4" type="video/mp4" />
-        </video>
+          <source src="/happyfarm.png" type="video/mp4" />
+        </video> */}
         <div className="relative max-md:text-[50px] text-[72px] leading-[72px] max-md:leading-[50px]">
           <h1 className="uppercase inline-grid text-white">
             <span>experience an interesting</span>
