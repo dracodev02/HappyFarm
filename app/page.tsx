@@ -3,15 +3,15 @@ import IntroduceCard from "./components/IntroduceCard";
 export default function Home() {
   const items = [
     {
-      img: "https://s3-alpha-sig.figma.com/img/c9fe/2c58/52df81c7c7c3a3f045710a7d602b1c36?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h7p~n12ei4bYuE2RTCdwPJt~S8Sd1qmb4o9NOoEozfslHI0E~MKUkAN6KVwBgJ3yQ2uGV2yudCE2hGZTYUlI70jGONn8hBEUX2x26ErkO--icPJoEZYNiixeHpkEYGWXSEVD9wXcozNMFbzMX~fzd-mPaqU0HYPHAPcQTOoiNA7v6MbMfgBRLY~UI~py3Zzero1t0o7Jzd7YdhfU~1cMr8WH-pCFv8Ay8rciiDDYASPr~IE8p2U4iI7LnlVwbsXdU1axn3zuZXDoJ4MbwclvixguYoHblYyndVjJE2LgmSsKlfNMSJO5Z3UgtQNnhwDKlqLmsDQxihWovvQL-5wNuA_",
+      img: "happy-farm-demo1.png",
       title: "Farming",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/d6e0/90b5/bbd6b1576194931c1f0ab153ffae5cca?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WLzUIsNCxhZ0VbFIeCfipvU4Wedomm1hcxJ470lOu0BOl8ao2SqGCLge5VopGfYQeJK1lhrpfQvpHafK2de5Dtu7sINcZR85h~p02xKmzGTyANFkXjv8DxLwtB3D12NXVXS8t6jSFu8B4VndnCNUXRR-3NFNKBhMTNyt4oOsG-mnFuAAy4EnYjSI3Zp64yjgzOod-dI6RnHkijhch6~XRqUt3w0JCA~rku2jL97xf7Jn1csUS~CkYWc4vJnmOMIk-6WcXOYXqelYLNFnUx5eUGUbxIIj4zaFyDOdcVaAmyyfvDS2Wi0m02G95K9PAhZwUe-qdrUoEwjpIbJZOq7CBA__",
+      img: "happy-farm-demo2.png",
       title: "Staying connected",
     },
     {
-      img: "https://s3-alpha-sig.figma.com/img/de0b/fff0/93f36f6b08baef8cfbd035871da718aa?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GChMu~hp944ja3w2q3ANc2mZ80W5L6Wywi76LtWKV5tcfzFNMNd2GbyH73gTmCvMowINwWZlAWhL9hWf97hIF-H5lFSKrFEvEI1LCOTTngwQCNoiSmzpImkZbzygbr77Qax-XygbWPkWs5YR3XVUaGY0pI31gc~wqC4NtwioVOVFNYyUtSgDfHQgKtwuAUgVlo6nu-s5JdhRUVdRHBTEuoupSMRla7WSMQ24uE2rmHZ0QqH6UcKCkmm6ONdZOff1s~ZJxEhqIbZEqrfLmVeRV6eQ~C4rpAnrJXkIe6c5Fj4F-JFxvq-WY7Jd~IZGtS8gTPTV4sMdLVU6sVL5Gj0eew__",
+      img: "happy-farm-demo3.png",
       title: "Trading",
     },
   ];
