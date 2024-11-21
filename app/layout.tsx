@@ -11,9 +11,9 @@ const pixelOperator = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Farm",
+  title: "Sunnyside",
   icons: icon.src,
-  description: "Happy Farm",
+  description: "Sunnyside",
 };
 
 export default function RootLayout({
