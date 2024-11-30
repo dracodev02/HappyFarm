@@ -64,51 +64,35 @@ export default function Home() {
       <div className="bg-yellow fixed bottom-0 w-full mt-8 overflow-hidden whitespace-nowrap slider-container">
         <div className="slider">
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
           <p className="inline-block px-5">
-            <span className="px-2">
-              Welcome to the best pixel casual game on starknet
-            </span>
+            <span className="px-2">Welcome to the best pixel casual game</span>
             <span className="px-2">chapter 1 is here</span>
           </p>
         </div>
