@@ -13,7 +13,7 @@ const Header = () => {
             </p>
           </div>
           <img
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-md:hidden"
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3 max-md:hidden"
             src={logo.src}
             alt=""
           />
